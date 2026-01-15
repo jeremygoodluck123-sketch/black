@@ -1,4 +1,4 @@
-import { Mail, Phone } from 'lucide-react';
+import { Phone } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -12,12 +12,8 @@ export default function Footer() {
         <div className="mb-8">
           <div className="flex flex-col items-center gap-2 mb-6" style={{ color: '#cbd5e1' }}>
             <div className="flex items-center space-x-2">
-              <Mail className="w-5 h-5" style={{ color: '#3bc9ff' }} />
-              <span>info@biorawmaterials.com</span>
-            </div>
-            <div className="flex items-center space-x-2">
               <Phone className="w-5 h-5" style={{ color: '#3bc9ff' }} />
-              <span>+1 (555) 123-4567</span>
+              <span>+1 437 5999 553</span>
             </div>
           </div>
 
@@ -28,7 +24,7 @@ export default function Footer() {
         </div>
 
         <div className="text-sm pt-8 border-t" style={{ color: '#cbd5e1', borderColor: '#1e293b' }}>
-          <p>&copy; 2026 BioRaw Materials — ISO 9001:2015 Certified</p>
+          <p>&copy; 2026 BioRaw Materials</p>
         </div>
       </div>
     </footer>

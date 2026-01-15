@@ -22,9 +22,6 @@ export default function Hero() {
           <div className="px-8 py-4 rounded-full border" style={{ borderColor: '#1e293b', background: '#020617' }}>
             Quality Assured
           </div>
-          <div className="px-8 py-4 rounded-full border" style={{ borderColor: '#1e293b', background: '#020617' }}>
-            ISO 9001:2015
-          </div>
         </div>
       </div>
     </section>

@@ -46,17 +46,6 @@ export default function TrustSection() {
             </div>
           ))}
         </div>
-
-        <div className="text-center">
-          <div className="inline-block p-8 rounded-2xl border" style={{ background: '#0f172a', borderColor: '#1e293b' }}>
-            <div className="text-5xl font-bold mb-2" style={{ color: '#3bc9ff' }}>
-              ISO 9001:2015
-            </div>
-            <div style={{ color: '#cbd5e1' }}>
-              Certified Quality Management System
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
